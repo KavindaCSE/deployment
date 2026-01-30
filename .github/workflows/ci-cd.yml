@@ -32,4 +32,4 @@ jobs:
         with:
           context: ./src
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/aws-deployment:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/aws-deployment:build-${{ github.run_number }}
