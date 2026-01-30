@@ -32,4 +32,4 @@ jobs:
         with:
           context: ./src
           push: true
-          tags: kavindasamarawickkrama/flask-ec2:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/aws-deployment:latest
